@@ -8,4 +8,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Dead hedgehogs</p>"
+    return "<p>Digital Library</p><div> * Add book to library</>"
